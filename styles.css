@@ -1,0 +1,63 @@
+body{
+	background: black;
+	margin: 0;
+}
+#html{
+display: inline-block;
+max-width: 40px;
+margin: 0;
+}
+#menu1{
+    float: right; max-width: 45px;  display: inline-block; margin-top: 5px;
+}
+#headertext{
+display:inline-block;
+text-align: left;
+}
+#corazon{
+float: left; max-width: 30px; display: inline-block;
+}
+#comentario{
+float: left; max-width: 30px; display: inline-block;
+}
+#enviar{
+    float: left; max-width: 30px; display: inline-block;
+}
+#flag{
+    float: right; max-width: 30px; display: inline-block;
+}
+h4{
+    margin: 0;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: white;
+}
+div.post{
+	background: white;
+	margin-top: 10px;
+}
+div.post img{
+	width: 100%;
+}
+div.post .post-header div:first-child{
+	display: inline-block;
+	width: 80%;
+}
+div.post .post-header div:last-child{
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	text-align: right;
+	color: gray;
+}
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+}
+div.container{
+	width: 600px;
+	margin:auto;
+} 
